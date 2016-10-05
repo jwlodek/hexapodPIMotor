@@ -14,7 +14,7 @@ cd /path/to/desired/location/
 git clone https://gitlab.nsls2.bnl.gov/luvizotto/hexapodPIMotor.git 
 ```
 
-### Setup the locations of libs in <top>/configure/RELEASE:
+### Setup the locations of libs in [top]/configure/RELEASE:
 ```
 ASYN=/usr/lib/epics
 MOTOR=/epics/src/motor
@@ -22,20 +22,20 @@ MOTOR=/epics/src/motor
 
 ### Compile it:
 ```
-cd <top>
+cd [top]
 make
 ```
 
 ## How to use it
 
 To make your IOC work with this driver, you need to follow a few steps: 
-* Make your IOC point to the driver (<top>/configure/RELEASE)
+* Make your IOC point to the driver ([IOC top]/configure/RELEASE)
 * Configure some variables in the file "st.cmd"
 * Create DB files
 
 ### Making your IOC point to the driver
 
-Add this line to your file <top>/configure/RELEASE: 
+Add this line to your file [IOC top]/configure/RELEASE: 
 ```
 MOTOR_HEX=/path/to/driver/directory
 ```
