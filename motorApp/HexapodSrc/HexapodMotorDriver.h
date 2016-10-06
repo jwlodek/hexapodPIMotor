@@ -1,9 +1,11 @@
 /*
 FILENAME...   HexapodMotorDriver.h
-USAGE...      Motor driver support for the Parker Hexapod series of controllers, including the Aries.
+USAGE...    Motor driver support for the PI's Hexapods.
 
-Mark Rivers
-March 28, 2011
+Bruno Luvizotto
+September 19, 2016
+
+(This driver is based on the ACR driver written by Mark Rivers - rivers@cars.uchicago.edu)
 
 */
 
