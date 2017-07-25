@@ -17,7 +17,6 @@ git clone https://gitlab.nsls2.bnl.gov/luvizotto/hexapodPIMotor.git
 ### Setup the locations of libs in [top]/configure/RELEASE:
 ```
 ASYN=/usr/lib/epics
-MOTOR=/epics/src/motor
 ```
 
 ### Compile it:
