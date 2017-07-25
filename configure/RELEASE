@@ -17,7 +17,7 @@ SUPPORT=
 # Recommended ASYN release: R4-23
 #ASYN=$(SUPPORT)/asyn/R4-23
 ASYN=/usr/lib/epics
-MOTOR=/epics/src/motor
+#MOTOR=/epics/src/motor
 
 # Need the sequencer and the busy record for the MM4005 and XPS trajectory scanning
 # Recommended SNCSEQ release: R2.1.16
