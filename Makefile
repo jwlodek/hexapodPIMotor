@@ -4,8 +4,8 @@
 TOP = .
 include $(TOP)/configure/CONFIG
 
-DIRS += configure motorApp
-motorApp_DEPEND_DIRS   = configure
+DIRS += configure hexapodApp
+hexapodApp_DEPEND_DIRS   = configure
 
 # To build motor examples;
 # 1st - uncomment lines below.

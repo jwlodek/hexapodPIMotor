@@ -8,7 +8,7 @@ include $(TOP)/configure/CONFIG
 # All the following modules require ASYN.
 ifdef ASYN
 
-DIRS += HexapodSrc
+DIRS += src
 
 endif
 
